@@ -1,0 +1,4 @@
+"""Append. The append method adds a new element to the end of a list. 
+The append method mutates the list that it is invoked on, it does not
+ create a new list. The syntax for the append method is:
+    <''list''>.append(<''element''>)"""

@@ -1,0 +1,21 @@
+----- Concatenation.-----
+ The + operator can be used with lists and is very similar to how it is used to concatenate strings. It produces a new list, it does not mutate either of the input lists.
+
+<''list''> + <''list''> ? <''list''>
+For example,
+
+[0, 1] + [2, 3] ? [0, 1, 2, 3]
+
+------Length ------
+
+ The len operator can be used to find out the length of an object. The len operator works for many things other than lists, it works for any object that is a collection of things including strings. The output from len is the number of elements in its input.
+
+               len(<''list''>) ? <''number''>
+For example, len([0,1]) ? 2. Note that len only counts the outer elements:
+
+len(['a', ['b', ['c', 'd']]]) ? 2
+since the input list contains two elements: 'a' and ['b', ['c', 'd']].
+
+When you invoke len on a string, the output is the number of elements in the string.
+
+len("Udacity") ? 7

@@ -1,0 +1,1 @@
+#  Programar un algoritmo recursivo que permita hacer la división por  restas sucesivas.
